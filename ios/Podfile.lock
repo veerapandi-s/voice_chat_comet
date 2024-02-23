@@ -1,0 +1,29 @@
+PODS:
+  - cometchat_sdk (4.0.6):
+    - CometChatSDK (= 4.0.42)
+    - Flutter
+  - CometChatSDK (4.0.42)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - cometchat_sdk (from `.symlinks/plugins/cometchat_sdk/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - CometChatSDK
+
+EXTERNAL SOURCES:
+  cometchat_sdk:
+    :path: ".symlinks/plugins/cometchat_sdk/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  cometchat_sdk: 40a3e6cf5299745b6fa9b480717a4f2871235e00
+  CometChatSDK: a364c3d2c31a9b786a8ad24f79e6b8b619f60e97
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
