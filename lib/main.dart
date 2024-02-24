@@ -76,6 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
       MaterialPageRoute(
         builder: (context) => VoicChat(
           uid: uid,
+          sessionId: sesionIdController.text,
           isPresenter: isPresenter,
           isUIkit: isUIkit,
         ),
