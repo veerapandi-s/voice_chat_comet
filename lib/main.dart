@@ -145,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
                   child: Row(
                     children: [
-                      const Text("Presenter"),
+                      const Text("Host"),
                       Checkbox(
                           value: isPresenter,
                           onChanged: (bool? value) {
